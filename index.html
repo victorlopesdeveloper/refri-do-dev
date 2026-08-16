@@ -3,17 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refrigerante do Dev</title>
     <link rel="stylesheet" href="style.css">
+    <title>Refrigerante do Dev</title>
 </head>
 <body>
     <main>
-        <div>
-            <div>
+        <div class="item active" style="--background: #EA3D41">
+            <div class="title">
                 Morango
             </div>
-            <img src="images/Morango-refrigerante-foregroundBlur.png" alt="imagem morango">
-            img
+            <img src="images/Morango-refrigerante-foregroundBlur.png" alt="morango" class="fruit">
+            <img src="images/Morango-refrigerante.png" alt="lata de refrigerante de morango" class="refri">
+        </div>
+
+        <div class="item" style="--background: #2D5643">
+            <div class="title">
+                Abacate
+            </div>
+            <img src="images/Abacate-refrigerante-foregroundBlur.png" alt="abacate" class="fruit">
+            <img src="images/Abacate-refrigerante.png" alt="lata de refrigerante de abacate" class="refri">
+        </div>
+
+        <div class="item" style="--background: #E7A043">
+            <div class="title">
+                Laranja
+            </div>
+            <img src="images/Laranja-refrigerante-foregroundBlur.png" alt="laranja" class="fruit">
+            <img src="images/Laranja-refrigerante.png" alt="lata de refrigerante de laranja" class="refri">
+        </div>
+
+        <div class="arrow">
+            <button id="prev"> < </button>
+            <button id="next"> > </button>
         </div>
     </main>
 </body>
